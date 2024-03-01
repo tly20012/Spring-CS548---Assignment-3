@@ -28,3 +28,7 @@ deviceType: "Windows"
 }
 
 Note: if you are using POSTMAN if should say, "Runtime environment"
+
+**How to run**
+
+`node index.js`
