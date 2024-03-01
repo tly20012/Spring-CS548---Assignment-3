@@ -7,10 +7,14 @@
 3. Create a routes for:
 
 GET  / to retrieve all the student-info
+
 POST /to retrieve your information based on 'student-id'
+
 POST /to retrieve student's info who has taken CS548 -> the result should be all students ( return student-id only)
+
 POST /to retrieve who has taken the courses you have taken except CS548. (Hint: Pass your student-id  for example for Rahel its CS522, find out who has taken this course) one of the logic could be this 
-students.filter(student => student.courses.some(course => course.course_id === course_id)
+
+`students.filter(student => student.courses.some(course => course.course_id === course_id)`
 
 Additional Requirement:
 
